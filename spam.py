@@ -13,7 +13,7 @@ import time
 interest = input("Enter the interests seperate by a comma >> ")
 msg = input("You're message goes here >> ")
 """
-"Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6qaajg"
+"Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6xdf6C4"
 "Growing server, pretty new. for anyone and everyone. theres a wide variety of topics, our sense of humor can be weird/offensive youve been warned https://discord.gg/JKPPpp"
 """
 driver = webdriver.Firefox()
