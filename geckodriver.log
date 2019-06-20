@@ -1065,3 +1065,93 @@ JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1561050787129	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sameer\\AppData\\Local\\Temp\\rust_mozprofile.ZL9N4TYueJJV"
+1561050787807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561050787807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1561050787807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561050787807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561050790683	Marionette	INFO	Listening on port 65446
+1561050790958	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561050519768%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+1561051080088	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+1561051082607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1561051094272	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 132: TypeError: g is null
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/mootools/1.2.6/mootools-yui-compressed.js, line 19: Array.slice is deprecated; use Array.prototype.slice instead
+1561051096963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
