@@ -10,7 +10,7 @@ import time
 # msg2 = input("Enter your second message (2/4) >> ")
 # msg3 = input("Enter your third message (3/4) >> ")
 # msg4 = input("Enter your fourth message (4/4) >> ")
-interest = input("Enter the interests seperate by a comma ")
+interest = input("Enter the interests seperate by a comma >> ")
 msg = input("You're message goes here >> ")
 """
 "Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6qaajg"
