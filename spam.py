@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.common.exceptions import InvalidElementStateException
 from selenium.common.exceptions import UnexpectedAlertPresentException
+from selenium.common.exceptions import NoSuchElementException
 import time
 
 
@@ -10,8 +11,16 @@ import time
 # msg3 = input("Enter your third message (3/4) >> ")
 # msg4 = input("Enter your fourth message (4/4) >> ")
 interest = "discord"
-msg = "LMAO EPIC LOL LMFAO"
+msg = "Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6qaajg"
 driver = webdriver.Firefox()
+
+
+def check_exists_by_xpath(xpath):
+    try:
+        driver.find_element_by_xpath(xpath)
+    except NoSuchElementException:
+        return False
+    return True
 
 
 def main():
@@ -49,7 +58,11 @@ def main2():
             interest1.send_keys(interest)
             btn = driver.find_element_by_id("textbtn")
             btn.click()
-            time.sleep(5)
+            time.sleep(2)
+
+            while (check_exists_by_xpath('//div[@class="statuslog"]')):
+                  pass
+
             driver.find_element_by_xpath('//textarea[@rows="3"]').clear()
             message = driver.find_element_by_xpath('//textarea[@rows="3"]')
             message.send_keys(msg)
