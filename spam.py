@@ -60,14 +60,15 @@ def main2():
             btn.click()
             time.sleep(2)
 
+            ### DETECTING COMMONLIKESCANCELDIV
             while (check_exists_by_xpath('//div[@class="commonlikescancel"]')):
                   pass
 
             ### DETECTING CAPTCHA
-            if (check_exists_by_xpath('//div[@class="rc-anchor"]')):
+            if (check_exists_by_xpath('//iframe[@role="presentation"]')):
                   print("SOLVE THE CAPTCHA!!!")
             else:
-                  print("CAPTCHA SOLVED!!!")
+                  print("Captcha Already Solved")
 
             driver.find_element_by_xpath('//textarea[@rows="3"]').clear()
             message = driver.find_element_by_xpath('//textarea[@rows="3"]')
