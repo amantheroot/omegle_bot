@@ -4,18 +4,22 @@ from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.common.exceptions import NoSuchElementException
 import time
 
+"""
+Discord Server Messages:
 
-# interest = input("Enter the interests seperate by a comma ")
-# msg1 = input("Enter your first message (1/4) >> ")
-# msg2 = input("Enter your second message (2/4) >> ")
-# msg3 = input("Enter your third message (3/4) >> ")
-# msg4 = input("Enter your fourth message (4/4) >> ")
-interest = input("Enter the interests seperate by a comma >> ")
-msg = input("You're message goes here >> ")
+Nia Nation => "Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6xdf6C4"
+Merc's Server => "Growing server, pretty new. for anyone and everyone. theres a wide variety of topics, our sense of humor can be weird/offensive youve been warned https://discord.gg/JKPPpp"
 """
-"Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6xdf6C4"
-"Growing server, pretty new. for anyone and everyone. theres a wide variety of topics, our sense of humor can be weird/offensive youve been warned https://discord.gg/JKPPpp"
-"""
+
+DISC_MODE = True # Discord Mode
+
+if (DISC_MODE):
+      interest = "discord"
+      msg = "Come join Nia Nation a chill server with random conversation and a lot of chill people. Pedos will be exposed, if you think we’re talking about you we probably are. https://discord.gg/6xdf6C4"
+else:
+      interest = input("Enter the interests seperate by a comma >> ")
+      msg = input("You're message goes here >> ")
+
 driver = webdriver.Firefox()
 
 
@@ -36,15 +40,7 @@ def main():
             message.send_keys(msg)
             send = driver.find_element_by_xpath('//button[@class="sendbtn"]')
             send.click()
-            # message.send_keys(msg2)
-            # send = driver.find_element_by_xpath('//button[@class="sendbtn"]')
-            # send.click()
-            # message.send_keys(msg3)
-            # send = driver.find_element_by_xpath('//button[@class="sendbtn"]')
-            # send.click()
-            # message.send_keys(msg4)
-            # send = driver.find_element_by_xpath('//button[@class="sendbtn"]')
-            # send.click()
+
             disconnect = driver.find_element_by_xpath('//button[@class="disconnectbtn"]')
             disconnect.click()
             disconnect = driver.find_element_by_xpath('//button[@class="disconnectbtn"]')
@@ -64,21 +60,22 @@ def main2():
             btn.click()
             time.sleep(2)
 
-            while (check_exists_by_xpath('//div[@class="statuslog"]')):
+            while (check_exists_by_xpath('//div[@class="commonlikescancel"]')):
                   pass
+
+            ### DETECTING CAPTCHA
+            if (check_exists_by_xpath('//div[@class="rc-anchor"]')):
+                  print("SOLVE THE CAPTCHA!!!")
+            else:
+                  print("CAPTCHA SOLVED!!!")
 
             driver.find_element_by_xpath('//textarea[@rows="3"]').clear()
             message = driver.find_element_by_xpath('//textarea[@rows="3"]')
             message.send_keys(msg)
+
             send = driver.find_element_by_xpath('//button[@class="sendbtn"]')
             send.click()
-            # message.send_keys(msg2)
-            # send.click()
-            # message.send_keys(msg3)
-            # send.click()
-            # message.send_keys(msg4)
-            # send.click()
-            # send.click()
+
             disconnect = driver.find_element_by_xpath('//button[@class="disconnectbtn"]')
             disconnect.click()
 
